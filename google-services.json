@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "362815292109",
+    "project_id": "dejabrew-cb1c0",
+    "storage_bucket": "dejabrew-cb1c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362815292109:android:6d8c1949e5e25f6e015f84",
+        "android_client_info": {
+          "package_name": "com.example.dejabrew"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe5NjNnBqyF7YWmz1WKYOpxHd1okkFdao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

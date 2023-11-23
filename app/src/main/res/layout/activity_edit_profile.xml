@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfile"
+    android:background="@drawable/bg">
+
+    <EditText
+        android:id="@+id/EditProfileFirstName"
+
+        android:layout_width="247dp"
+        android:layout_height="53dp"
+        android:background="@drawable/rounded_edittext"
+        android:elevation="25dp"
+
+        android:ems="10"
+        android:hint="First Name"
+
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.212" />
+
+    <EditText
+        android:id="@+id/EditProfileLastName"
+        android:layout_width="247dp"
+        android:layout_height="53dp"
+        android:background="@drawable/rounded_edittext"
+        android:elevation="25dp"
+
+        android:ems="10"
+        android:hint="Last Name"
+
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.337"
+
+        />
+
+    <EditText
+        android:id="@+id/EditProfileEmailAddress"
+        android:layout_width="247dp"
+        android:layout_height="53dp"
+        android:background="@drawable/rounded_edittext"
+        android:elevation="25dp"
+
+        android:ems="10"
+        android:hint="Email"
+
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.461" />
+
+    <EditText
+        android:id="@+id/EditProfilePassword"
+        android:layout_width="247dp"
+        android:layout_height="53dp"
+        android:background="@drawable/rounded_edittext"
+        android:elevation="25dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.581" />
+
+    <Button
+        android:id="@+id/Disregard"
+        android:layout_width="153dp"
+        android:layout_height="42dp"
+        android:backgroundTint="#EBBD25"
+        android:text="DISREGARD"
+        android:textColor="#404040"
+        android:textColorHighlight="#EBBD25"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.786"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.737" />
+
+    <Button
+        android:id="@+id/Save"
+        android:layout_width="139dp"
+        android:layout_height="42dp"
+        android:backgroundTint="#EBBD25"
+        android:text="SAVE"
+        android:textColor="#404040"
+        android:textColorHighlight="#EBBD25"
+        android:textColorLink="#EBBD25"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.738" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"
+        app:srcCompat="@drawable/logo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
