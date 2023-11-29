@@ -26,7 +26,11 @@ class Login : AppCompatActivity() {
 //            startActivity(Intent)
             performLogin()
         }
-
+        val backButton = findViewById<Button>(R.id.Backbtn)
+        backButton.setOnClickListener {
+        val Intent = Intent(this, MainActivity::class.java)
+       startActivity(Intent)
+        }
     }
 
     private fun performLogin(){

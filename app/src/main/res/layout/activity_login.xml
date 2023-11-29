@@ -11,22 +11,39 @@
 
     <Button
         android:id="@+id/Loginbtn"
-        android:text="LOGIN"
-
         android:layout_width="132dp"
+
         android:layout_height="48dp"
-        android:textColor="#404040"
         android:backgroundTint="#EBBD25"
+        android:text="LOGIN"
+        android:textColor="#404040"
         android:textStyle="bold"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintVertical_bias="0.745"
-        />
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.73" />
+
+    <Button
+        android:id="@+id/Backbtn"
+        android:layout_width="132dp"
+
+        android:layout_height="48dp"
+        android:backgroundTint="#FAEBCD"
+        android:text="BACK"
+        android:textColor="#404040"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.827" />
 
     <EditText
         android:id="@+id/loginPassword"

@@ -103,6 +103,23 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.72" />
 
+    <Button
+        android:id="@+id/Backbtn"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#FAEBCD"
+        android:text="BACK"
+        android:textColor="#404040"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.827" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="76dp"
