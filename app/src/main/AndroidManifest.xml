@@ -13,9 +13,11 @@
         android:theme="@style/Theme.Dejabrew"
         tools:targetApi="31">
         <activity
-            android:name=".Profile2"
+            android:name=".Recipe"
             android:exported="false" />
-        <!-- <activity -->
+        <activity
+            android:name=".Profile2"
+            android:exported="false" /> <!-- <activity -->
         <!-- android:name=".Profile" -->
         <!-- android:exported="false" /> -->
         <activity

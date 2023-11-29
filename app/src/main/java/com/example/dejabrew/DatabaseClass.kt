@@ -1,4 +1,5 @@
 package com.example.dejabrew
 
-class DatabaseClass {
-}
+data class DatabaseClass (var UserID:String,
+                          var Username: String,
+                          var Email: String)
