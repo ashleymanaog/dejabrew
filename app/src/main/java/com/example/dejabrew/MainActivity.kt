@@ -46,17 +46,17 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent)
         }
 
-        val editprofilebtn = findViewById<Button>(R.id.editprofilebtn)
-        editprofilebtn.setOnClickListener {
-            val Intent = Intent(this, EditProfile::class.java)
-            startActivity(Intent)
-        }
-
-        val uploadbtn = findViewById<Button>(R.id.uploadbtn)
-        uploadbtn.setOnClickListener {
-            val Intent = Intent(this, Upload::class.java)
-            startActivity(Intent)
-        }
+//        val editprofilebtn = findViewById<Button>(R.id.editprofilebtn)
+//        editprofilebtn.setOnClickListener {
+//            val Intent = Intent(this, EditProfile::class.java)
+//            startActivity(Intent)
+//        }
+//
+//        val uploadbtn = findViewById<Button>(R.id.uploadbtn)
+//        uploadbtn.setOnClickListener {
+//            val Intent = Intent(this, Upload::class.java)
+//            startActivity(Intent)
+//        }
 
 
     }
