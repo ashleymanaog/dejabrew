@@ -7,27 +7,11 @@
     android:background="@drawable/bg2"
     tools:context=".Upload">
 
-    <TextView
-        android:id="@+id/txtUpload"
-        android:layout_width="272dp"
-        android:layout_height="35dp"
-        android:text="UPLOAD RECIPE"
-        android:textAlignment="center"
-        android:textColor="#352512"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.539"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.117" />
-
     <EditText
         android:id="@+id/edtTitle"
 
-        android:layout_width="270dp"
-        android:layout_height="55dp"
+        android:layout_width="277dp"
+        android:layout_height="56dp"
         android:background="@drawable/rounded_edittext"
         android:elevation="25dp"
 
@@ -40,15 +24,15 @@
         app:layout_constraintBottom_toBottomOf="parent"
 
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintHorizontal_bias="0.46"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.31" />
+        app:layout_constraintVertical_bias="0.482" />
 
     <EditText
         android:id="@+id/edtRecipe"
-        android:layout_width="304dp"
-        android:layout_height="295dp"
+        android:layout_width="276dp"
+        android:layout_height="217dp"
         android:background="@drawable/rounded_uploadtext"
         android:elevation="5dp"
         android:gravity="start|top"
@@ -62,15 +46,15 @@
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.462"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.672" />
+        app:layout_constraintVertical_bias="0.777" />
 
     <Button
         android:id="@+id/uploadbtn"
-        android:layout_width="283dp"
-        android:layout_height="52dp"
+        android:layout_width="266dp"
+        android:layout_height="51dp"
         android:backgroundTint="#EBBD25"
 
         android:text="UPLOAD"
@@ -79,11 +63,11 @@
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.475"
         app:layout_constraintStart_toStartOf="parent"
 
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.906" />
+        app:layout_constraintVertical_bias="0.927" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -113,5 +97,43 @@
 
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023" />
+
+    <ImageView
+        android:id="@+id/idIVImage"
+        android:layout_width="271dp"
+        android:layout_height="182dp"
+        android:layout_margin="10dp"
+        android:padding="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.131" />
+
+    <Button
+        android:id="@+id/idBtnChooseImage"
+        android:layout_width="273dp"
+        android:layout_height="57dp"
+        android:layout_below="@id/idIVImage"
+        android:layout_margin="10dp"
+        android:backgroundTint="#EBBD25"
+        android:padding="4dp"
+
+        android:text="CHOOSE IMAGE"
+
+
+        android:textAllCaps="false"
+        android:textColor="#404040"
+
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.449"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.387" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

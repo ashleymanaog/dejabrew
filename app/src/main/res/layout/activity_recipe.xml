@@ -9,4 +9,95 @@
     android:background="@drawable/bg"
     >
 
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView"-->
+<!--        android:layout_width="352dp"-->
+<!--        android:layout_height="645dp"-->
+<!--        android:background="@drawable/rounded_recipe"-->
+<!--        android:gravity="center"-->
+<!--        android:padding="50dp"-->
+<!--        android:text=" "-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+
+<!--        app:layout_constraintHorizontal_bias="0.491"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <TextView
+        android:id="@+id/txtEmpRecipeTitle"
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:text="txtEmpRecipe"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.094" />
+
+    <TextView
+        android:id="@+id/txtEmpRecipeText"
+        android:layout_width="301dp"
+        android:layout_height="302dp"
+        android:text="txtEmpRecipe"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.766" />
+
+    <ImageView
+        android:id="@+id/recPhotoName"
+        android:layout_width="271dp"
+        android:layout_height="182dp"
+        android:layout_margin="10dp"
+        android:padding="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.194" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/recPhotoName"-->
+<!--        android:layout_width="238dp"-->
+<!--        android:layout_height="174dp"-->
+<!--        tools:layout_editor_absoluteX="75dp"-->
+<!--        tools:layout_editor_absoluteY="114dp"-->
+<!--        tools:srcCompat="@tools:sample/avatars"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintVertical_bias="0.194" />-->
+    <Button
+        android:id="@+id/Backbtn"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#FAEBCD"
+        android:text="BACK"
+        android:textColor="#404040"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.956" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
