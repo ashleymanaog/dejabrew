@@ -14,7 +14,7 @@ class About : AppCompatActivity() {
 
         val backButton = findViewById<Button>(R.id.aboutBackbtn)
         backButton.setOnClickListener {
-            val Intent = Intent(this, MainActivity::class.java)
+            val Intent = Intent(this, Dashboard::class.java)
             startActivity(Intent)
         }
 
