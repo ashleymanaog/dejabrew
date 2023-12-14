@@ -56,22 +56,43 @@
         app:srcCompat="@drawable/logo" />
 
     <TextView
+        android:id="@+id/AppTitle"
+        android:layout_width="146dp"
+        android:layout_height="104dp"
+        android:fontFamily="sans-serif-condensed-medium"
+
+        android:letterSpacing="0.1"
+
+        android:text="Coffee Adventure, Starts now!"
+        android:textColor="#FEFEFE"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.475" />
+
+    <TextView
         android:id="@+id/AppInfo"
-        android:layout_width="339dp"
-        android:layout_height="157dp"
-        android:text="Welcome to our online haven for coffee enthusiasts, where the rich tapestry of coffee culture unfolds in the digital realm. DejaBrew is a coffee-inspired website that has a variety of coffee that could be tried at home. Indulge yourself to a place where the love for coffee knows no bounds, and every click is a step towards a richer, more flavorful journey.
+        android:layout_width="274dp"
+        android:layout_height="148dp"
+        android:letterSpacing="0.1"
+
+        android:text="Where the rich tapestry of coffee culture unfolds in the digital realm. DejaBrew is a coffee-inspired website that has a variety of coffee that could be tried at home. Indulge yourself to a place where the love for coffee knows no bounds, and every click is a step towards a richer, more flavorful journey.
 "
+    android:textAlignment="textStart"
         android:textColor="#FEFEFE"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.569"
+        app:layout_constraintHorizontal_bias="0.233"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.717" />
+        app:layout_constraintVertical_bias="0.72" />
 
     <Button
         android:id="@+id/Loginbtn"
-        android:layout_width="139dp"
+        android:layout_width="153dp"
         android:layout_height="42dp"
         android:backgroundTint="#EBBD25"
         android:text="LOG IN"
@@ -80,10 +101,10 @@
         android:textColorLink="#EBBD25"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintHorizontal_bias="0.124"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.801" />
+        app:layout_constraintVertical_bias="0.879" />
 
     <Button
         android:id="@+id/Registerbtn"
@@ -95,9 +116,9 @@
         android:textColorHighlight="#EBBD25"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.844"
+        app:layout_constraintHorizontal_bias="0.821"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.801" />
+        app:layout_constraintVertical_bias="0.879" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
