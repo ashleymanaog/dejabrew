@@ -8,25 +8,13 @@
     tools:context=".Dashboard">
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/editprofilebtn"
-        android:layout_width="50dp"
-        android:layout_height="46dp"
-        android:background="@drawable/editprofile"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.296"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
-
-    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/uploadbtn"
         android:layout_width="53dp"
         android:layout_height="47dp"
         android:background="@drawable/upload"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.564"
+        app:layout_constraintHorizontal_bias="0.265"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023" />
@@ -108,7 +96,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
-                        android:text="Vanilla Latte"
+                        android:text="Iced Mocha"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
                 </LinearLayout>
@@ -204,7 +192,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
-                        android:text="White Mocha"
+                        android:text="Chai Latte"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
                 </LinearLayout>
