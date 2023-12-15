@@ -68,6 +68,11 @@ class Dashboard : AppCompatActivity() {
             val Intent = Intent(this, About::class.java)
             startActivity(Intent)
         }
+        val eprofilebtn = findViewById<Button>(R.id.editbtn)
+        eprofilebtn.setOnClickListener {
+            val Intent = Intent(this, EditProfile::class.java)
+            startActivity(Intent)
+        }
 
         val uploadbtn = findViewById<Button>(R.id.uploadbtn)
         uploadbtn.setOnClickListener {

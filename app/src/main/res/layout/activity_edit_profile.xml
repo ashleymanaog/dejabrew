@@ -8,7 +8,7 @@
     android:background="@drawable/bg">
 
     <EditText
-        android:id="@+id/EditProfileFirstName"
+        android:id="@+id/edtUserName"
 
         android:layout_width="247dp"
         android:layout_height="53dp"
@@ -16,37 +16,16 @@
         android:elevation="25dp"
 
         android:ems="10"
-        android:hint="First Name"
-
+        android:hint="User Name"
         android:inputType="text"
         android:paddingLeft="20dp"
+        android:text="try"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
 
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.212" />
-
-    <EditText
-        android:id="@+id/EditProfileLastName"
-        android:layout_width="247dp"
-        android:layout_height="53dp"
-        android:background="@drawable/rounded_edittext"
-        android:elevation="25dp"
-
-        android:ems="10"
-        android:hint="Last Name"
-
-        android:inputType="text"
-        android:paddingLeft="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.337"
-
-        />
+        app:layout_constraintVertical_bias="0.359" />
 
     <EditText
         android:id="@+id/EditProfileEmailAddress"
@@ -67,25 +46,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.461" />
 
-    <EditText
-        android:id="@+id/EditProfilePassword"
-        android:layout_width="247dp"
-        android:layout_height="53dp"
-        android:background="@drawable/rounded_edittext"
-        android:elevation="25dp"
-        android:ems="10"
-        android:hint="Password"
-        android:inputType="textEmailAddress"
-        android:paddingLeft="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-
-        app:layout_constraintVertical_bias="0.581" />
-
     <Button
-        android:id="@+id/Save"
+        android:id="@+id/edtProfileSave"
         android:layout_width="139dp"
         android:layout_height="42dp"
         android:backgroundTint="#EBBD25"
@@ -98,19 +60,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.711" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.95"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.024"
-        app:srcCompat="@drawable/logo" />
+        app:layout_constraintVertical_bias="0.608" />
 
     <Button
         android:id="@+id/edtprofileBackbtn"
@@ -126,6 +76,34 @@
         app:layout_constraintStart_toStartOf="parent"
 
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.795" />
+        app:layout_constraintVertical_bias="0.76" />
+
+    <Button
+        android:id="@+id/edtProfileDelete"
+        android:layout_width="139dp"
+        android:layout_height="42dp"
+        android:backgroundTint="#FA7979"
+        android:text="DELETE"
+        android:textColor="#404040"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.685" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"
+        app:srcCompat="@drawable/logo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

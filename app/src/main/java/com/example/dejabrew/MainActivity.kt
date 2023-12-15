@@ -32,13 +32,13 @@ class MainActivity : AppCompatActivity() {
         }
 
   //Add
-            databaseReference = FirebaseDatabase.getInstance().getReference("DatabaseName")
-            var databaseClass = DatabaseClass("Pascua", "SSE", "BizAps")
-            var dataKey = databaseReference.push().getKey();
-            databaseReference.child("Pascua").setValue(databaseClass).addOnSuccessListener()
-            {
-                Toast.makeText(this, "Success", Toast.LENGTH_SHORT).show()
-            }
+//            databaseReference = FirebaseDatabase.getInstance().getReference("DatabaseName")
+//            var databaseClass = DatabaseClass("Pascua", "SSE", "BizAps")
+//            var dataKey = databaseReference.push().getKey();
+//            databaseReference.child("Pascua").setValue(databaseClass).addOnSuccessListener()
+//            {
+//                Toast.makeText(this, "Success", Toast.LENGTH_SHORT).show()
+//            }
 
         val aboutbtn = findViewById<Button>(R.id.aboutbtn)
         aboutbtn.setOnClickListener {
